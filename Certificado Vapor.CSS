@@ -1,0 +1,81 @@
+#Titulo_certificado {
+    text-align: center; /* Centra el texto */
+    font-size: 20px; /* Aumenta el tamaño del texto */
+    line-height: 1.6; /* Aumenta el espacio entre las líneas de texto */
+    margin-bottom: 20px; /* Añade un poco de espacio debajo del texto */
+}
+
+.Tabla_head {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 12px;
+    line-height: 1.7;
+}
+
+td.Subtitulo {
+    font-size: 15px;
+    font-weight: bold;
+    overflow: visible;
+    white-space: nowrap;
+    text-decoration: underline;
+}
+
+.Tabla_detalle {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 12px;
+    overflow: visible;
+    white-space: nowrap;
+    line-height: 1.7;
+}
+td.Columna_1_Punto::before {
+    content: "• ";
+    margin: 15px;
+    overflow: visible;
+    white-space: nowrap;
+    line-height: 1.7;
+}   
+td.Columna_2 {
+    text-align: center;
+    line-height: 1.7;
+}
+#Tabla_Proceso {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#Tabla_Proceso th, #Tabla_Proceso td  {
+    border: 1px solid black; /* Añade un borde a las celdas */
+    text-align: center; /* Alinea el texto a la izquierda */
+    padding: 8px; /* Añade un poco de espacio alrededor del texto */
+    font-size: 10px; /* Cambia el tamaño del texto */
+}
+
+#Tabla_Proceso th {
+    background-color: #87CEEB; /* Añade un color de fondo a las celdas del encabezado */
+}
+
+#QR {
+    width: 100px; /* Ajusta este valor para cambiar el tamaño de la imagen */
+    height: auto; /* Mantiene la proporción de la imagen */
+    position: absolute; /* Permite posicionar la imagen en cualquier lugar de la página */
+    top: 128; /* Coloca la imagen en la parte superior de la página */
+    right: 80; /* Coloca la imagen en el lado derecha de la página */
+}
+
+#Insumos td {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 8px;
+    overflow: visible;
+    white-space: nowrap;
+    line-height: 1.7;   
+}
+footer {
+    font-size: 9px;
+}
+body {
+    margin-top: 95px;    /* Aproximadamente 5cm */
+    margin-bottom: 150px; /* Aproximadamente 4cm */
+    margin-left: 50px;   /* Aproximadamente 3cm */
+}
