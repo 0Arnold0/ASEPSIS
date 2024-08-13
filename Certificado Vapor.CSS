@@ -4,26 +4,6 @@
     line-height: 1.6; /* Aumenta el espacio entre las líneas de texto */
     margin-bottom: 20px; /* Añade un poco de espacio debajo del texto */
 }
-.a4-container {
-    width: 210mm; /* Ancho de una hoja A4 */
-    height: 297mm; /* Alto de una hoja A4 */
-    background-image: url('ruta/a-tu-imagen.jpg');
-    background-size: cover;
-    background-position: center;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Sombra para simular elevación */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.content {
-    padding: 20mm;
-    background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco semitransparente para el contenido */
-    border-radius: 5mm; /* Bordes redondeados */
-    width: 100%;
-    height: 100%;
-    box-sizing: border-box;
-}
 .Tabla_head {
     width: 100%;
     border-collapse: collapse;
