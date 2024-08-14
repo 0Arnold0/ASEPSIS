@@ -82,8 +82,8 @@ td.Columna_2 {
     width: 100px; /* Ajusta este valor para cambiar el tamaño de la imagen */
     height: auto; /* Mantiene la proporción de la imagen */
     position: absolute; /* Permite posicionar la imagen en cualquier lugar de la página */
-    top: 200; /* Coloca la imagen en la parte superior de la página */
-    right: 35; /* Coloca la imagen en el lado derecha de la página */
+    top: 220; /* Coloca la imagen en la parte superior de la página */
+    right: 85; /* Coloca la imagen en el lado derecha de la página */
 }
 
 #Insumos td {
