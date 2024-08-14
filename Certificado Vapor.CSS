@@ -16,7 +16,7 @@
 }
 .Firma {
     position: absolute;
-    top: 890px;
+    top: 850px;
     left: 450px;
     width: 150px;
     
@@ -30,12 +30,12 @@ body, html {
 .Tabla_head {
     width: 100%;
     border-collapse: collapse;
-    font-size: 12px;
+    font-size: 10.5px;
     line-height: 1.7;
 }
 
 td.Subtitulo {
-    font-size: 12px;
+    font-size: 10.5px;
     font-weight: bold;
     overflow: visible;
     white-space: nowrap;
@@ -45,7 +45,7 @@ td.Subtitulo {
 .Tabla_detalle {
     width: 100%;
     border-collapse: collapse;
-    font-size: 12px;
+    font-size: 10.5px;
     overflow: auto;
     line-height: 1.7;
 }
@@ -61,10 +61,10 @@ td.Columna_2 {
     line-height: 1.7;
 }
 .Subtitulo-detalle {
-    font-size: 12px;
+    font-size: 10.5px;
     font-weight: normal; /* Puedes ajustar el peso del texto si es necesario */
     text-decoration: none; /* Esto quitará el subrayado si no lo necesitas */
-    margin-left: 150px; /* Añade espacio entre el título y el detalle */
+    margin-left: 200px; /* Añade espacio entre el título y el detalle */
 }
 #Tabla_Proceso {
     width: 89.5%;
@@ -75,7 +75,7 @@ td.Columna_2 {
     border: 1px solid black; /* Añade un borde a las celdas */
     text-align: center; /* Alinea el texto a la izquierda */
     padding: 8px; /* Añade un poco de espacio alrededor del texto */
-    font-size: 12px; /* Cambia el tamaño del texto */
+    font-size: 10.5px; /* Cambia el tamaño del texto */
 }
 
 #Tabla_Proceso th {
@@ -83,17 +83,17 @@ td.Columna_2 {
 }
 
 #QR {
-    width: 100px; /* Ajusta este valor para cambiar el tamaño de la imagen */
+    width: 80px; /* Ajusta este valor para cambiar el tamaño de la imagen */
     height: auto; /* Mantiene la proporción de la imagen */
     position: absolute; /* Permite posicionar la imagen en cualquier lugar de la página */
     top: 170px; /* Coloca la imagen en la parte superior de la página */
-    right: 120px; /* Coloca la imagen en el lado derecha de la página */
+    right: 185px; /* Coloca la imagen en el lado derecha de la página */
 }
 
 #Insumos td {
     width: 100%;
     border-collapse: collapse;
-    font-size: 8px;
+    font-size: 10.5px;
     overflow: visible;
     white-space: nowrap;
     line-height: 1.7;   
