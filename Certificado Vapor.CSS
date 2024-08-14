@@ -10,19 +10,19 @@
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: 95%;
     object-fit: cover; /* La imagen cubre todo el fondo sin distorsión */
     z-index: -1; /* Envía la imagen al fondo, detrás del contenido */
 }
 
 body, html {
-    margin: 0;
-    padding: 0;
-    width: 100%;
+    width: 105%;
     height: 100%;
     overflow: hidden;
+    margin-top: 80px;    /* Aproximadamente 5cm */
+    margin-bottom: 200px; /* Aproximadamente 4cm */
+    padding: 0%; 
 }
-
 .Tabla_head {
     width: 100%;
     border-collapse: collapse;
@@ -58,7 +58,7 @@ td.Columna_2 {
     line-height: 1.7;
 }
 #Tabla_Proceso {
-    width: 100%;
+    width: 89.5%;
     border-collapse: collapse;
 }
 
@@ -91,9 +91,4 @@ td.Columna_2 {
 }
 footer {
     font-size: 9px;
-}
-body {
-    margin-top: 150px;    /* Aproximadamente 5cm */
-    margin-bottom: 200px; /* Aproximadamente 4cm */
-    margin-left: 50px;   /* Aproximadamente 3cm */
 }
