@@ -14,6 +14,13 @@
     object-fit: cover; /* La imagen cubre todo el fondo sin distorsión */
     z-index: -1; /* Envía la imagen al fondo, detrás del contenido */
 }
+.Firma {
+    position: absolute;
+    top: 890px;
+    left: 450px;
+    width: 150px;
+    
+}
 
 body, html {
     margin-top: 70px;
@@ -28,7 +35,7 @@ body, html {
 }
 
 td.Subtitulo {
-    font-size: 15px;
+    font-size: 12px;
     font-weight: bold;
     overflow: visible;
     white-space: nowrap;
@@ -44,7 +51,7 @@ td.Subtitulo {
 }
 td.Columna_1_Punto::before {
     content: "• ";
-    margin: 15px;
+    margin: 12px;
     overflow: visible;
     white-space: nowrap;
     line-height: 1.7;
@@ -54,7 +61,7 @@ td.Columna_2 {
     line-height: 1.7;
 }
 .Subtitulo-detalle {
-    font-size: 15px;
+    font-size: 12px;
     font-weight: normal; /* Puedes ajustar el peso del texto si es necesario */
     text-decoration: none; /* Esto quitará el subrayado si no lo necesitas */
     margin-left: 150px; /* Añade espacio entre el título y el detalle */
@@ -68,7 +75,7 @@ td.Columna_2 {
     border: 1px solid black; /* Añade un borde a las celdas */
     text-align: center; /* Alinea el texto a la izquierda */
     padding: 8px; /* Añade un poco de espacio alrededor del texto */
-    font-size: 10px; /* Cambia el tamaño del texto */
+    font-size: 12px; /* Cambia el tamaño del texto */
 }
 
 #Tabla_Proceso th {
@@ -80,8 +87,9 @@ td.Columna_2 {
     height: auto; /* Mantiene la proporción de la imagen */
     position: absolute; /* Permite posicionar la imagen en cualquier lugar de la página */
     top: 170px; /* Coloca la imagen en la parte superior de la página */
-    right: 120; /* Coloca la imagen en el lado derecha de la página */
+    right: 120px; /* Coloca la imagen en el lado derecha de la página */
 }
+
 #Insumos td {
     width: 100%;
     border-collapse: collapse;
