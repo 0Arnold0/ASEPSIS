@@ -1,7 +1,7 @@
 #Titulo_certificado {
     text-align: center;
     font-size: 18px; /* Tamaño reducido */
-    line-height: 1.4; /* Line-height reducido */
+    line-height: 1.2; /* Line-height reducido */
     margin-bottom: 10px;
 }
 
@@ -30,19 +30,40 @@ body, html {
 .Tabla_head {
     width: 100%;
     border-collapse: collapse;
-    font-size: 10.5px;
+    font-size: 9px;
     line-height: 1.7;
 }
 
 td.Subtitulo {
-    font-size: 10.5px;
+    font-size: 8px;
     font-weight: bold;
     overflow: visible;
     white-space: nowrap;
     text-decoration: underline;
 }
 
-.Tabla_detalle {
+.Protooclo_Limpieza {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 10.5px;
+    overflow: auto;
+    line-height: 1.7;
+}
+.Barrera_Esteril {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 10.5px;
+    overflow: auto;
+    line-height: 1.7;
+}
+.Metodo {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 10.5px;
+    overflow: auto;
+    line-height: 1.7;
+}
+.Control_Equipo_Paquete {
     width: 100%;
     border-collapse: collapse;
     font-size: 10.5px;
@@ -51,6 +72,14 @@ td.Subtitulo {
 }
 td.Columna_1_Punto::before {
     content: "• ";
+    text-align: left;
+    margin: 12px;
+    overflow: visible;
+    white-space: nowrap;
+    line-height: 1.7;
+}   
+td.Columna_1_Espacio::before {
+    content: "  ";
     margin: 12px;
     overflow: visible;
     white-space: nowrap;
@@ -59,11 +88,17 @@ td.Columna_1_Punto::before {
 td.Columna_2 {
     text-align: center;
     line-height: 1.7;
+    overflow: visible;
+}
+td.Columna_2_DT2{
+    text-align: left;
+    line-height: 1.7;
+    overflow: visible;
 }
 .Subtitulo-detalle {
-    font-size: 10.5px;
+    text-align: left;
     font-weight: normal; /* Puedes ajustar el peso del texto si es necesario */
-    text-decoration: none; /* Esto quitará el subrayado si no lo necesitas */
+    text-decoration: n0one; /* Esto quitará el subrayado si no lo necesitas */
     margin-left: 200px; /* Añade espacio entre el título y el detalle */
 }
 #Tabla_Proceso {
@@ -75,7 +110,7 @@ td.Columna_2 {
     border: 1px solid black; /* Añade un borde a las celdas */
     text-align: center; /* Alinea el texto a la izquierda */
     padding: 8px; /* Añade un poco de espacio alrededor del texto */
-    font-size: 10.5px; /* Cambia el tamaño del texto */
+    font-size: 9px; /* Cambia el tamaño del texto */
 }
 
 #Tabla_Proceso th {
@@ -86,8 +121,15 @@ td.Columna_2 {
     width: 80px; /* Ajusta este valor para cambiar el tamaño de la imagen */
     height: auto; /* Mantiene la proporción de la imagen */
     position: absolute; /* Permite posicionar la imagen en cualquier lugar de la página */
-    top: 170px; /* Coloca la imagen en la parte superior de la página */
-    right: 185px; /* Coloca la imagen en el lado derecha de la página */
+    top: 160px; /* Coloca la imagen en la parte superior de la página */
+    right: 80px; /* Coloca la imagen en el lado derecha de la página */
+}
+#Lavado {
+    width: 200px; /* Ajusta este valor para cambiar el tamaño de la imagen */
+    height: auto; /* Mantiene la proporción de la imagen */
+    position: absolute; /* Permite posicionar la imagen en cualquier lugar de la página */
+    top: 400px; /* Coloca la imagen en la parte superior de la página */
+    left: 10px; /* Coloca la imagen en el lado derecha de la página */
 }
 
 #Insumos td {
