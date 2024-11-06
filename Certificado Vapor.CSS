@@ -16,7 +16,7 @@
 }
 .Firma {
     position: absolute;
-    bottom: 20px;
+    bottom: 25px;
     left: 450px;
     width: 180px;
     
@@ -167,7 +167,7 @@ td.Articulos {
     width: 180px; /* Ajusta este valor para cambiar el tamaño de la imagen */
     height: auto; /* Mantiene la proporción de la imagen */
     position: absolute; /* Permite posicionar la imagen en cualquier lugar de la página */
-    top: 445px; /* Coloca la imagen en la parte superior de la página */
+    top: 440px; /* Coloca la imagen en la parte superior de la página */
     right: 90px; /* Coloca la imagen en el lado derecha de la página */
 }
 
@@ -180,7 +180,7 @@ td.Articulos {
     line-height: 1.7;   
 }
 footer {
-    font-size: 9px;
+    font-size: 7px;
 }
 @media print {
     body {
