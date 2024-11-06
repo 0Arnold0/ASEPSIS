@@ -102,7 +102,8 @@ td.Columna_2_DT2{
     margin-left: 200px; /* Añade espacio entre el título y el detalle */
 }
 #Tabla_Proceso {
-    width: 89.5%;
+    width: 100%;
+    table-layout: fixed;
     border-collapse: collapse;
 }
 
@@ -111,6 +112,36 @@ td.Columna_2_DT2{
     text-align: center; /* Alinea el texto a la izquierda */
     padding: 8px; /* Añade un poco de espacio alrededor del texto */
     font-size: 9px; /* Cambia el tamaño del texto */
+    word-wrap: break-word; /* Permite que el texto se ajuste con saltos de línea */
+    white-space: normal; /* Asegura que el texto se ajuste dentro de las celdas */
+}
+
+
+
+#Tabla_Proceso th:nth-child(1), #Tabla_Proceso td:nth-child(1) {
+    width: 12.9%; /* Ajusta el ancho según sea necesario */
+}
+
+#Tabla_Proceso th:nth-child(2), #Tabla_Proceso td:nth-child(2) {
+    width: 35.48%; /* Ajusta el ancho según sea necesario */
+}
+
+#Tabla_Proceso th:nth-child(3), #Tabla_Proceso td:nth-child(3) {
+    width: 12.9%; /* Ajusta el ancho según sea necesario */
+}
+
+#Tabla_Proceso th:nth-child(4), #Tabla_Proceso td:nth-child(4) {
+    width: 19.35%; /* Ajusta el ancho según sea necesario */
+}
+
+#Tabla_Proceso th:nth-child(5), #Tabla_Proceso td:nth-child(5) {
+    width: 19.35%; /* Ajusta el ancho según sea necesario */
+}
+
+
+
+td.Articulos {
+    text-align: left !important;
 }
 
 #Tabla_Proceso th {
