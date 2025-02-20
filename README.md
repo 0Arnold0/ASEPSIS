@@ -1,0 +1,1 @@
+QLQ, formato de certificados
