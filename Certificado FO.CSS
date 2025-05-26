@@ -1,7 +1,7 @@
 #Titulo_certificado {
     text-align: center;
     font-size: 18px; /* Tamaño reducido */
-    line-height: 1.4; /* Line-height reducido */
+    line-height: 1.2; /* Line-height reducido */
     margin-bottom: 10px;
 }
 
@@ -16,33 +16,53 @@
 }
 .Firma {
     position: absolute;
-    top: 880px;
+    bottom: 20px;
     left: 450px;
     width: 180px;
-    
 }
 
 body, html {
-    margin-top: 70px;
+    margin-top: 75px;
     margin-bottom: 150px;
     padding: 0;
 }
 .Tabla_head {
     width: 100%;
     border-collapse: collapse;
-    font-size: 10.5px;
+    font-size: 9px;
     line-height: 1.7;
 }
 
 td.Subtitulo {
-    font-size: 10.5px;
+    font-size: 8px;
     font-weight: bold;
     overflow: visible;
     white-space: nowrap;
     text-decoration: underline;
 }
 
-.Tabla_detalle {
+.Protooclo_Limpieza {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 10.5px;
+    overflow: auto;
+    line-height: 1.7;
+}
+.Barrera_Esteril {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 10.5px;
+    overflow: auto;
+    line-height: 1.7;
+}
+.Metodo {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 10.5px;
+    overflow: auto;
+    line-height: 1.7;
+}
+.Control_Equipo_Paquete {
     width: 100%;
     border-collapse: collapse;
     font-size: 10.5px;
@@ -51,6 +71,14 @@ td.Subtitulo {
 }
 td.Columna_1_Punto::before {
     content: "• ";
+    text-align: left;
+    margin: 12px;
+    overflow: visible;
+    white-space: nowrap;
+    line-height: 1.7;
+}   
+td.Columna_1_Espacio::before {
+    content: "  ";
     margin: 12px;
     overflow: visible;
     white-space: nowrap;
@@ -59,15 +87,29 @@ td.Columna_1_Punto::before {
 td.Columna_2 {
     text-align: center;
     line-height: 1.7;
+    overflow: visible;
+}
+td.Columna_2_DT2{
+    text-align: left;
+    line-height: 1.7;
+    overflow: visible;
 }
 .Subtitulo-detalle {
-    font-size: 10.5px;
+    text-align: left;
     font-weight: normal; /* Puedes ajustar el peso del texto si es necesario */
-    text-decoration: none; /* Esto quitará el subrayado si no lo necesitas */
+    text-decoration: n0one; /* Esto quitará el subrayado si no lo necesitas */
     margin-left: 200px; /* Añade espacio entre el título y el detalle */
 }
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 #Tabla_Proceso {
-    width: 89.5%;
+    width: 100%;
+    table-layout: fixed;
     border-collapse: collapse;
 }
 
@@ -75,7 +117,37 @@ td.Columna_2 {
     border: 1px solid black; /* Añade un borde a las celdas */
     text-align: center; /* Alinea el texto a la izquierda */
     padding: 8px; /* Añade un poco de espacio alrededor del texto */
-    font-size: 10.5px; /* Cambia el tamaño del texto */
+    font-size: 9px; /* Cambia el tamaño del texto */
+    word-wrap: break-word; /* Permite que el texto se ajuste con saltos de línea */
+    white-space: normal; /* Asegura que el texto se ajuste dentro de las celdas */
+}
+
+
+
+#Tabla_Proceso th:nth-child(1), #Tabla_Proceso td:nth-child(1) {
+    width: 12.9%; /* Ajusta el ancho según sea necesario */
+}
+
+#Tabla_Proceso th:nth-child(2), #Tabla_Proceso td:nth-child(2) {
+    width: 35.48%; /* Ajusta el ancho según sea necesario */
+}
+
+#Tabla_Proceso th:nth-child(3), #Tabla_Proceso td:nth-child(3) {
+    width: 12.9%; /* Ajusta el ancho según sea necesario */
+}
+
+#Tabla_Proceso th:nth-child(4), #Tabla_Proceso td:nth-child(4) {
+    width: 19.35%; /* Ajusta el ancho según sea necesario */
+}
+
+#Tabla_Proceso th:nth-child(5), #Tabla_Proceso td:nth-child(5) {
+    width: 19.35%; /* Ajusta el ancho según sea necesario */
+}
+
+
+
+td.Articulos {
+    text-align: left !important;
 }
 
 #Tabla_Proceso th {
@@ -87,19 +159,27 @@ td.Columna_2 {
     height: auto; /* Mantiene la proporción de la imagen */
     position: absolute; /* Permite posicionar la imagen en cualquier lugar de la página */
     top: 170px; /* Coloca la imagen en la parte superior de la página */
-    right: 185px; /* Coloca la imagen en el lado derecha de la página */
+    right: 80px; /* Coloca la imagen en el lado derecha de la página */
+}
+
+.Lavado {
+    width: 180px; /* Ajusta este valor para cambiar el tamaño de la imagen */
+    height: auto; /* Mantiene la proporción de la imagen */
+    position: absolute; /* Permite posicionar la imagen en cualquier lugar de la página */
+    top: 420px; /* Coloca la imagen en la parte superior de la página */
+    right: 90px; /* Coloca la imagen en el lado derecha de la página */
 }
 
 #Insumos td {
     width: 100%;
     border-collapse: collapse;
-    font-size: 10.5px;
+    font-size: 7px;
     overflow: visible;
     white-space: nowrap;
     line-height: 1.7;   
 }
 footer {
-    font-size: 9px;
+    font-size: 7px;
 }
 @media print {
     body {
