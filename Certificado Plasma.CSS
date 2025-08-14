@@ -79,7 +79,7 @@ td.Columna_2 {
 }
 
 #Tabla_Proceso th {
-    background-color: #30D5C8; /* Añade un color de fondo a las celdas del encabezado */
+    background-color: #75d973; /* Añade un color de fondo a las celdas del encabezado */
 }
 
 #QR {
@@ -115,3 +115,4 @@ footer {
     size: A4;
     margin: 10mm 10mm 10mm 10mm;
 }
+
